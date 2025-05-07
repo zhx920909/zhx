@@ -22,8 +22,20 @@ export default defineConfig({
             },
         ],
 
-        socialLinks: [
-            { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-        ],
+        // 社交账户链接
+        socialLinks: [{ icon: 'github', link: 'https://github.com/zhx920909' }],
+
+        // 页脚
+        footer: {
+            message: '基于 MIT 许可发布',
+            copyright: '版权所有 © 2025-2025 周勋',
+        },
+
+        // 搜索
+        search: {
+            provider: 'local',
+        },
     },
+    // 最后更新时间戳
+    lastUpdated: true,
 })
