@@ -7,7 +7,7 @@ export default defineConfig({
     base: '/zhx/',
     themeConfig: {
         // Logo
-        logo: '/logo.png',
+        logo: '/zhx-logo-mini.svg',
 
         // https://vitepress.dev/reference/default-theme-config
         nav: [

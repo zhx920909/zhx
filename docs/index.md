@@ -17,7 +17,7 @@ hero:
       text: GitHub
       link: https://github.com/zhx920909
   image:
-      src: /zhx-large.svg
+      src: /zhx-logo-large.svg
       alt: zhx
 
 features:
