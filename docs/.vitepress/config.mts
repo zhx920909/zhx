@@ -6,6 +6,9 @@ export default defineConfig({
     description: 'A VitePress Site',
     base: '/zhx/',
     themeConfig: {
+        // Logo
+        logo: '/logo.png',
+
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: 'Home', link: '/' },
