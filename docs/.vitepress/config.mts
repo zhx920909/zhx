@@ -26,7 +26,10 @@ export default defineConfig({
         ],
 
         // 社交账户链接
-        socialLinks: [{ icon: 'github', link: 'https://github.com/zhx920909' }],
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/zhx920909' },
+            { icon: 'twitter', link: 'https://x.com/zhx250213' },
+        ],
 
         // 页脚
         footer: {
