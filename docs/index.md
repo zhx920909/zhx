@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 我的初衷
-      link: /markdown-examples
+      link: /guide/tell-me-why
     - theme: alt
       text: 从 Node.js 开始
-      link: /api-examples
+      link: /nodejs/quick-start
     - theme: alt
       text: GitHub
       link: https://github.com/zhx920909
