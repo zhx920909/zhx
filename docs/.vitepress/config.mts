@@ -14,6 +14,18 @@ export default defineConfig({
             { text: 'Home', link: '/' },
             { text: '指南', link: '/guide/tell-me-why' },
             { text: 'Node.js', link: '/nodejs/quick-start' },
+            {
+                text: 'Vue 生态',
+                items: [
+                    { text: 'Vue.js', link: '/vue/vuejs/essentials' },
+                    { text: 'Vue Router', link: '/vue/vue-router/essentials' },
+                    { text: 'Pinia', link: '/vue/pinia/essentials' },
+                ],
+            },
+            {
+                text: 'React 生态',
+                items: [{ text: 'React.js', link: '/react/reactjs' }],
+            },
         ],
 
         sidebar: {
@@ -29,6 +41,45 @@ export default defineConfig({
                     items: [
                         { text: '简介', link: '/nodejs/introduction' },
                         { text: '快速开始', link: '/nodejs/quick-start' },
+                    ],
+                },
+            ],
+            '/vue/vuejs/': [
+                {
+                    text: 'Vue.js',
+                    items: [
+                        { text: 'Vue 基础', link: '/vue/vuejs/essentials' },
+                        { text: 'Vue 进阶', link: '/vue/vuejs/extras' },
+                    ],
+                },
+            ],
+            '/vue/vue-router/': [
+                {
+                    text: 'Vue Router',
+                    items: [
+                        {
+                            text: 'Vue Router 基础',
+                            link: '/vue/vue-router/essentials',
+                        },
+                        {
+                            text: 'Vue Router 进阶',
+                            link: '/vue/vue-router/extras',
+                        },
+                    ],
+                },
+            ],
+            '/vue/pinia/': [
+                {
+                    text: 'Pinia',
+                    items: [
+                        {
+                            text: 'Pinia 基础',
+                            link: '/vue/pinia/essentials',
+                        },
+                        {
+                            text: 'Pinia 进阶',
+                            link: '/vue/pinia/extras',
+                        },
                     ],
                 },
             ],
